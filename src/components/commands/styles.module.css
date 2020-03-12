@@ -1,0 +1,32 @@
+.wrap {
+  width: 20vw;
+  min-height: 50vh;
+  margin-top: 34px;
+  margin-right: 5vw;
+  color: var(--accent-color);
+  transform: translateX(-100%);
+  transition: transform 1s;
+}
+
+.body {
+  padding: 20px;
+}
+
+.isActive {
+  transform: translateZ(0);
+}
+
+.commands {
+  padding-left: 20px;
+}
+
+.commands li {
+  list-style-type: none;
+}
+
+.command {
+  display: inline-block;
+  max-width: 100px;
+  width: 100%;
+  color: var(--base-text-color);
+}

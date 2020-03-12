@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+#root {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: rgb(51, 206, 123);
+  background: linear-gradient(
+    135deg,
+    rgba(51, 206, 123, 1) 0%,
+    rgba(75, 196, 193, 1) 100%
+  );
+}

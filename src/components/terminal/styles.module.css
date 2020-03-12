@@ -1,0 +1,88 @@
+.help {
+  margin-top: 0;
+  margin-bottom: 16px;
+  text-align: center;
+  color: var(--primary-color);
+  animation: fadeIn 1s ease-in 1s both;
+}
+
+.terminal {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  min-height: 50vh;
+  z-index: 1;
+  animation: zoomIn 1s ease-in both;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  padding: 20px;
+}
+
+.form {
+  width: 100%;
+}
+
+.body,
+.input,
+.name {
+  color: var(--base-text-color);
+}
+
+.body,
+.input {
+  font-size: 16px;
+}
+
+.line {
+  display: flex;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.editable {
+  flex: 1 0 auto;
+}
+
+.source {
+  margin-right: 10px;
+  flex-shrink: 0;
+  color: #fff;
+}
+
+.source,
+.input {
+  line-height: 18px;
+  vertical-align: super;
+}
+
+.input {
+  width: 100%;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
