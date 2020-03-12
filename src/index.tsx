@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './app'
+import App from './components/app'
 import { register } from './sw'
 
 import './theme/index.css'

@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react'
-import { Terminal } from './components/terminal'
-import { Commands } from './components/commands'
+import { Terminal } from './terminal'
+import { Commands } from './commands'
 
 export default function App() {
   const [hasCommands, setHasCommands] = useState(false)
